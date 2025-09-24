@@ -1,11 +1,14 @@
 
 // Assignment 1: Temperature Converter
 fn fahrenheit_to_celsius(f: f64) -> f64 {
-    (f - 32.0) * (5.0 / 9.0)
+    //temp converter 
+    let result_cel = (f - 32.0) * (5.0 / 9.0); 
+    return result_cel;
 }
 
 fn celsius_to_fahrenheit(c: f64) -> f64 {
-    (c * (9.0 / 5.0)) + 32.0
+    let result_far = (c * ( 9.0/5.0)) + 32.0; 
+    return result_far;
 }
 
 fn assignment1() {
@@ -82,7 +85,7 @@ fn check_guess(guess: i32, secret: i32) -> i32 {
 }
 
 fn assignment3() {
-    let secret_num = 10;
+    let mut secret_num = 10;
     let mut guess = 1;
     let mut opportunities = 0;
 
