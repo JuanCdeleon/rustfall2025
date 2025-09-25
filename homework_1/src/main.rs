@@ -85,7 +85,7 @@ fn check_guess(guess: i32, secret: i32) -> i32 {
 }
 
 fn assignment3() {
-    let mut secret_num = 10;
+    let secret_num = 10;
     let mut guess = 1;
     let mut opportunities = 0;
 
